@@ -1,126 +1,143 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
-  line-height: 1.6;
-  margin: 0;
-  padding: 20px; /* Adicionei um preenchimento para espaçamento interno */
-  box-sizing: border-box; /* Garante que o preenchimento seja incluído nas dimensões totais */
+body{
+    background-color: #abfdb0;
+    min-height: 100vh;
 }
 
-.menu {
-  background-color: #fff;
-  color: #333;
-  padding: 30px;
-  max-width: 900px;
-  margin: 20px auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Mantive aqui se você quiser manter o texto centralizado no menu */
+#header{
+    text-align: center;
+    line-height: 99px;
+    margin: auto;
+    width: 100vw;
+    height: 100px;
+    background-color: #044021;
+    color: #d8d8d8;
+    font-size: xx-large;
+    font-family: 'DM Sans', sans-serif;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #333;
+.conteudo_pagina{
+    width: 90vw;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 20%;
+    gap: 5px;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 20px 0;
+#resultados{
+    width: 400px;
 }
 
-.grid-item {
-  background-color: #59d472;
-  padding: 30px;
-  font-size: 1.2rem;
-  text-align: center;
-  color: #fff;
-  border-radius: 6px;
-  transition: background-color 0.3s ease-in-out;
+.titulo_container{
+    background-color: #40f095;
+    color: #03530e;
+    padding-left: 10px;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.grid-item .no-border {
-  border: none;
+.conteudo_container{
+    font-family: 'Roboto', sans-serif;
+    background-color: #b5ffb4;
 }
 
-
-.grid-item:hover {
-  background-color: #005fa3;
+li{
+    list-style-type: none;
 }
 
-/* Media Query */
-@media (max-width: 768px) {
-  .menu {
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
+#imagem_destaque{
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Estilos para o menu */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+img{
+    width: 100px;
 }
 
-h2 {
-  margin-bottom: 10px;
-  font-size: 24px;
-  color: black;
+h4{
+    color: #000000;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-  font-size: 12px;
+p{
+    padding: 10px 10px;
 }
 
-li {
-  margin-bottom: 8px;
+#itens_menu{
+    padding: 10px 10px;
 }
 
-a {
-  text-decoration: none;
-  color: #ffffff;
-  display: inline-block;
-  padding: 10px 20px;
-  border: 1px solid #007bff;
-  border-radius: 5px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+.a_menu{
+    text-decoration: none;
+    color: #060606;
+    font-family: 'DM Sans', sans-serif;
 }
 
-a:hover {
-  background-color: #0044ff;
-  color: #fff;
+#itens_noticias{
+    padding: 10px 10px;
 }
 
-img {
-  width: 100px;
-  height: 100px;
+.a_noticias{
+    padding: 10px 10px;
+    color: #060606;
 }
 
-footer {
-  background-color: #fff;
-  color: #333;
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold; 
-  border-top: 1px solid #ccc;
+footer{
+    color: #f0f0f0;
+    text-align: center;
+    line-height: 30px;
+    background-color: #02611d;
+    width: 100vw;
+    height: 90px;
+    position: fixed;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+}
+
+#texto_tela_p{
+    display: none;
+}
+
+@media (max-width: 500px){
+    .conteudo_pagina{
+        grid-template-columns: 1fr;
+    }
+
+    #imagem_destaque{
+        margin: 10px auto;
+    }
+    
+
+    #resultados{
+        width: 450px;
+    }
+
+    #texto_tela_g{
+        display: none;
+    }
+
+    #texto_tela_p{
+        display: block;
+    }
+
+    #imagem_2{
+        display: none;
+    }
+
+    #titulo_3{
+        display: none;
+    }
 }

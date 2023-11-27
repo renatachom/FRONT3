@@ -1,78 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>UESC - Universidade Estadual de Santa Cruz</title>
     <link rel="stylesheet" href="style.css">
-    <title>UESC</title>
 </head>
+
+
 <body>
-    <div class="menu">
-        <h2><img src="Brasão_da_UESC.jpg" alt="">UNIVERSIDADE ESTADUAL DE SANTA CRUZ</h2>
-        <div class="grid-container">
-            <div class="grid-item menu-item">
-                <h2>Menu</h2>
+    <header id="header">
+
+        <h2 id="texto_tela_g">
+            UESC - Universidade Estadual de Santa Cruz
+        </h2>
+        <h2 id="texto_tela_p">
+            UESC   
+        </h2>
+       
+        
+    </header>
+    <div class="conteudo_pagina">
+        <div class="conteudo_container">
+            <div class="titulo_container">
+                <h3>
+                    Menu
+                </h3>
+            </div>
+            <div id="itens_menu">
                 <ul>
-                    <li><a href="Index.html">Centros e Grupos de Pesquisa</a></li>
-                    <li><a href="Index.html">Internacional</a></li>
-                    <li><a href="Index.html">Laboratórios</a></li>
-                    <li><a href="Index.html">Mapa da Uesc</a></li>
-                    <li><a href="Index.html">Núcleos</a></li>
-                    <li><a href="Index.html">Projetos</a></li>
-                    <li><a href="Index.html">PROTOCOLO DIGITAL</a></li>
+                    <li>
+                        <a href="" class="a_menu">
+                            Centros e Grupos de Pesquisas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="a_menu">
+                            Internacional
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="a_menu" id="titulo_3">
+                            Mapa Uesc
+                        </a>
+                    </li>
                 </ul>
             </div>
-
-            <div class="grid-item" id="NOTICIAS">
-                <span style="color: black;">NOTICIAS</span>
-                <br>
-                <div>
-                  <ul>
-                    <p>-> Cursos de Graduação da Uesc</p>
-                    <li><a class="no-border" href="https://www2.uesc.br/noticias/902/Cursos-de-graduacao-da-Uesc-entre-os-melhores-do-Brasil">Avaliação é do Ranking Universitário Folha</a></li>
-                    <br>
-                    <p>-> Uesc Sobe no Ranking</p>    
-                    <li><a class="no-border" href="https://www2.uesc.br/noticias/896/Uesc-sobe-no-ranking">RUF Aponta as Melhores Universidades do Brasil</a></li>
-                  </ul>   
-                </div>
-              </div>
-              
-              
-            <div class="grid-item" id="DESTAQUE">
-                <span style="color: black;">DESTAQUE</span>
-                <div>
-                  <img src="imagem1.jpg" alt="Imagem 1">
-                </div>
-                <div>
-                  <img src="imagem2.jpg" alt="Imagem 2">
-                </div>
+        </div>
+        <div class="conteudo_container">
+            <div class="titulo_container">
+                <h3>
+                    Notícias
+                </h3>
             </div>
-              
-            <div class="grid-item" id="SERVIÇOS" style="text-align: left;">
-                <span style="color: black;">SERVIÇOS</span>
-                <p>
-                  Auditório
-                  Biblioteca
-                  Licitações
-                  Pav. Max de Menezes
-                  Portal Acadêmico
-                  Protocolo Digital 
-                  Peticionamento Eletrônico do SEI 
-                </p>
-            </div>
-              
-            <div class="grid-item" id="RESULTADOS" style="text-align: right;">
-                <span style="color: black;">RESULTADOS</span>
-                <p>
-                    Pós-graduação em Ciências da Saúde
-                    Inscrições Homologadas - Após Recursos
+            <div id="itens_noticias"> 
+                <br>   
+                    <h4>
+                        Uesc Sobe no Ranking
+                    </h4>
+                    <a href="https://www2.uesc.br/noticias/896/Uesc-sobe-no-ranking" class="a_noticias">
+                        Ir para notícia
+                    </a>
+                    <p>
+                    <h4>
+                        Comunicado - Vestibular EaD 2023
+                    </h4>
+                    <a href="http://www.uesc.br/processo_seletivo/vestibular_ead/" class="a_noticias">
+                        Ir para notícia
+                    </a>
                 </p>
             </div>
         </div>
+        <div class="conteudo_container">
+            <div class="titulo_container">
+                <h3>
+                    Destaque
+                </h3>
+            </div>
+            <div id="imagem_destaque">
+                <img src="imagem1.jpg">
+<br>
+             <img id="imagem_2" src="imagem2.jpg" alt="">
+            </div>
+        </div>
+        <div class="conteudo_container">
+            <div class="titulo_container">
+                <h3>
+                    Serviços
+                </h3>
+            </div>
+            <div>
+                <br>
+                 <h4>
+                     Auditórios
+                 </h4>
+                 <h4>
+                     Biblioteca
+                   </h4>
+                    <h4>
+                    Licitações
+                   </h4>
+                   <h4>
+                   Pav. Max de Menezes
+                   </h4>
+                   <h4>
+                   Protocolo Digital
+                    </h4>
+                    <h4>
+                        Peticionamento Eletrônico do SEI
+                    </h4>
+            </div>
+        </div>
+        <div class="conteudo_container" id="resultados">
+            <div class="titulo_container">
+                <h3>
+                    Resultados
+                </h3>
+            </div>
+            <div>
+                <br>
+                <h4>
+                     Pós Graduação Profnit
+                </h3>
+                <a href="http://www.uesc.br/cursos/pos_graduacao/mestrado/profnit/index.php?item=conteudo_selecao.php" class="resultados">
+                    Resultado Segunda Etapa
+                </a>
+                <p></p>
+                <h4>
+                     Mestrado Profissional em Educação
+                   </h4>
+                   <a href="http://www.uesc.br/cursos/pos_graduacao/mestrado/formacaodeprofessores/index.php?item=conteudo_processoseletivo.php" class="resultados">
+                    Programação de Entrevistas
+                   </a>
+                   <h4>
+                    <p></p>
+                <h4>
+                    Seleção Pública Professor Substituto
+                   </h4>
+                   <a href="http://www.uesc.br/selecao_publica/" class="resultados">
+                    Local de Prova
+                   </a>
+                   <h4>
+            </div>
+        </div>
     </div>
-
-    <footer>UNIVERSIDADE ESTADUAL DE SANTA CRUZ</footer>
+    
+    <footer>
+        <br>
+        <h5>
+            UNIVERSIDADE ESTADUAL DE SANTA CRUZ
+        </h5>
+        
+    </footer>
 </body>
 </html>
