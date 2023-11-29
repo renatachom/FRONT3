@@ -6,7 +6,6 @@ Este projeto tem como objetivo criar um novo design para a página da web da UES
 
 MÓDULO: Programação WEB (Front end) - Básico - FEB-P002
 
-
 ## Designs Responsivos
 
 ### Tela Maior que 500px (Figura 1)
