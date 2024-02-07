@@ -1,27 +1,15 @@
-# VehicleExplorer
+# FEB-P010
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+## Descrição
 
-## Development server
+Este projeto tem como objetivo demonstrar o entendimento sobre como os componentes se comunicam no Angular, bem como os conceitos de Observables e Subjects. Além disso, visa reforçar os conhecimentos em HTML, CSS, TypeScript e Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tarefa
 
-## Code scaffolding
+A tarefa FEB-P007 consiste em desenvolver uma aplicação Angular chamada JReader para a leitura e análise de um arquivo JSON. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requisitos
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Criar e utilizar um Service com pelo menos um objeto da classe Subject incluído.
+- Organizar as views de cada componente nos arquivos .css e .html.
+- Manter a indentação e organização do código em TypeScript.
